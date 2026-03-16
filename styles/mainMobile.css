@@ -1,0 +1,124 @@
+/* ===================== */
+/* TABLET */
+/* ===================== */
+@media (max-width: 992px) {
+
+    .hero {
+        padding: 60px 40px;
+    }
+
+    .hero-text h1 {
+        font-size: 34px;
+    }
+
+    .hero-image img {
+        width: 500px;
+        right: 0;
+    }
+
+    .products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .style-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+}
+
+
+/* ===================== */
+/* MOBILE */
+/* ===================== */
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+        padding-bottom: 0px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .stats {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .hero-image{
+        padding:0px;
+    }
+
+    .hero-image img {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .brands {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .style-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* ===================== */
+/* SMALL MOBILE */
+/* ===================== */
+@media (max-width: 480px) {
+
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .products-section {
+        padding: 30px 15px;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        height: 220px;
+    }
+
+    .newsletter input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter button {
+        width: 120px;
+    }
+
+}

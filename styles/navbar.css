@@ -1,0 +1,53 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+}
+
+.logo {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+nav > a {
+     margin: 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.divInput {
+    display: flex;
+    align-items: center;
+    border: 2px #363434 solid;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 6px 12px;
+
+}
+
+.divInput>img {
+    width: 15px;
+}
+
+.divInput>input {
+    border: none;
+    outline: none;
+    width: 400px;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

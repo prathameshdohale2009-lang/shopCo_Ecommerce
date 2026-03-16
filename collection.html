@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection | SHOP.CO</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/navbarMobile.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/footerMobile.css">
+    <link rel="stylesheet" href="/styles/collectionMain.css">
+    <link rel="stylesheet" href="/styles/collectionMainMobile.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <h2 class="logo">SHOP.CO</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="collection.html">Collection</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <div class="divInput">
+            <img src="./assets/search icon.jpg" alt="search_Icon">
+            <input type="text" placeholder="Search for products..." />
+        </div>
+
+
+
+        <div class="icons">
+            <a href="">🛒</a>
+            <a href="">👤</a>
+        </div>
+    </header>
+
+
+    <section class="collection">
+
+        <div class="container">
+
+            <!-- LEFT FILTER -->
+            <aside class="filters">
+
+                <div class="headingBox">
+                    <h3>Filters</h3>
+                    <button id="clearFilters">Clear Filters</button>
+                </div>
+
+                <div class="filter-group">
+                    <p data-category="tshirt">T-shirts</p>
+                    <p data-category="shirt">Shirts</p>
+                    <p data-category="hoodie">Hoodie</p>
+                    <p data-category="jeans">Jeans</p>
+                </div>
+
+                <h4>Price</h4>
+                <div class="price">
+                    <span id="minimumPrize">$400</span>
+                    <input type="range" id="priceRange" value="400" min="0" max="400">
+                </div>
+
+                <h4>Colors</h4>
+                <div class="colors">
+                    <span class="c1" data-color="black"></span>
+                    <span class="c2" data-color="red"></span>
+                    <span class="c3" data-color="yellow"></span>
+                    <span class="c4" data-color="green"></span>
+                    <span class="c5" data-color="blue"></span>
+                    <span class="c6" data-color="pink"></span>
+                </div>
+
+                <h4>Size</h4>
+                <div class="sizes">
+                    <button class="">S</button>
+                    <button class="">M</button>
+                    <button class="">L</button>
+                    <button class="">XL</button>
+                </div>
+
+            </aside>
+
+
+            <!-- RIGHT PRODUCTS -->
+            <div class="collection-products">
+
+                <div class="product-header">
+                    <h2>Casual</h2>
+                    <p id="productCount"></p>
+                </div>
+
+                <!-- Product Mapping (Collection.js) -->
+                <div class="product-grid" id="productGrid"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Logo & Description -->
+            <div class="footer-col">
+                <h2>SHOP.CO</h2>
+                <p>
+                    We have clothes that suits your style and which you’re proud to wear.
+                    From women to men.
+                </p>
+            </div>
+
+            <!-- Company -->
+            <div class="footer-col">
+                <h4>COMPANY</h4>
+                <a href="#">About</a>
+                <a href="#">Features</a>
+                <a href="#">Works</a>
+                <a href="#">Career</a>
+            </div>
+
+            <!-- Help -->
+            <div class="footer-col">
+                <h4>HELP</h4>
+                <a href="#">Customer Support</a>
+                <a href="#">Delivery Details</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <!-- FAQ -->
+            <div class="footer-col">
+                <h4>FAQ</h4>
+                <a href="#">Account</a>
+                <a href="#">Manage Deliveries</a>
+                <a href="#">Orders</a>
+                <a href="#">Payments</a>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer-col">
+                <h4>RESOURCES</h4>
+                <a href="#">Free eBooks</a>
+                <a href="#">Development Tutorial</a>
+                <a href="#">How to - Blog</a>
+                <a href="#">Youtube Playlist</a>
+            </div>
+
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <p>Shop.co © 2000–2023, All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+</body>
+<script type="module" src="js/collection.js"></script>
+
+</html>

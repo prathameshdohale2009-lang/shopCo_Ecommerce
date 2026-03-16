@@ -1,0 +1,65 @@
+/* TABLET RESPONSIVE */
+@media (max-width: 992px) {
+
+    .navbar {
+        justify-content: space-between;
+        padding: 15px 20px;
+    }
+
+    .divInput input {
+        width: 200px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+}
+
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: 3;
+    }
+
+    .divInput input {
+        width: 150px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+}
+
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+
+    .divInput {
+        display: none; /* hide search bar */
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .icons {
+        gap: 5px;
+    }
+
+}

@@ -1,0 +1,62 @@
+/* Tablets */
+@media (max-width: 992px) {
+
+    .contact {
+        padding: 0 5%;
+    }
+
+    .contact-container {
+        gap: 30px;
+    }
+
+    .contact-form {
+        width: 300px;
+    }
+
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact h1 {
+        font-size: 32px;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+}
+
+
+/* Small Mobiles */
+@media (max-width: 480px) {
+
+    .contact {
+        padding: 0 15px;
+    }
+
+    .contact h1 {
+        font-size: 26px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+    .contact-form textarea {
+        height: 100px;
+    }
+
+}

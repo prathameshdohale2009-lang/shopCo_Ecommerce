@@ -1,0 +1,51 @@
+/* Tablets */
+@media (max-width: 992px) {
+
+    .about {
+        padding: 40px 5%;
+    }
+
+    .about-container {
+        gap: 30px;
+    }
+
+    .about-text h1 {
+        font-size: 34px;
+    }
+
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text h1 {
+        font-size: 30px;
+    }
+
+    .about-image img {
+        max-width: 500px;
+    }
+
+}
+
+/* Small Mobiles */
+@media (max-width: 480px) {
+
+    .about {
+        padding: 30px 15px;
+    }
+
+    .about-text h1 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+}
